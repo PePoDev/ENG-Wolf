@@ -79,7 +79,7 @@ public class SM_Menu : MonoBehaviour
 
 	public void OnClick_SelectLevel(string level)
 	{
-		PlayerPrefs.SetString("Level", level);
+		PlayerPrefs.SetString("mode", level);
 		SceneManager.LoadScene("Game");
 	}
 

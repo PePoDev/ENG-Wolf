@@ -2,24 +2,38 @@
 
 public class HMD : MonoBehaviour
 {
+	private float xRotation;
+	private float yRotation;
+	private float zRotation;
 
-	private void Start()
+	private void Awake()
 	{
-		Input.gyro.enabled = true;
+		if (SystemInfo.supportsGyroscope)
+		{
+			Input.gyro.enabled = true;
+		}
+		else
+		{
+			Debug.LogWarning("This device dont support gyro");
+		}
 	}
 
 	private void Update()
 	{
-		transform.rotation = GyroToUnity(Input.gyro.attitude);
+		if (float.IsNaN(Input.gyro.attitude.x))
+		{
+			xRotation += -Input.gyro.rotationRateUnbiased.x;
+			yRotation += -Input.gyro.rotationRateUnbiased.y;
+			//zRotation += -Input.gyro.rotationRateUnbiased.z;
 
-		Debug.Log("Before : " + transform.rotation.eulerAngles);
-
-		var rotation = transform.rotation.eulerAngles;
-		rotation.x -= 90f;
-		var q = Quaternion.Euler(rotation);
-		transform.rotation = q;
-
-		Debug.Log("After : " + transform.rotation.eulerAngles);
+			transform.eulerAngles = new Vector3(xRotation, yRotation, zRotation);
+			Debug.Log("unbiased " + transform.rotation);
+		}
+		else
+		{
+			transform.rotation = GyroToUnity(Input.gyro.attitude);
+			Debug.Log("attitude " + transform.rotation);
+		}
 	}
 
 	private static Quaternion GyroToUnity(Quaternion q)

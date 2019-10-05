@@ -34,10 +34,22 @@ MonoBehaviour:
     - i1: 1621269993
       i2: 0
   - activeObject:
-      i1: 1906792235
+      i1: 314798606
       i2: 0
     list:
-    - i1: 1906792235
+    - i1: 314798606
+      i2: 0
+  - activeObject:
+      i1: 834190059
+      i2: 0
+    list:
+    - i1: 834190059
+      i2: 0
+  - activeObject:
+      i1: 837480543
+      i2: 0
+    list:
+    - i1: 837480543
       i2: 0
   - activeObject:
       i1: 198851479
@@ -46,11 +58,11 @@ MonoBehaviour:
     - i1: 198851479
       i2: 0
   - activeObject:
-      i1: 13170070
-      i2: 0
+      i1: -1
+      i2: -1
     list:
-    - i1: 13170070
-      i2: 0
+    - i1: -1
+      i2: -1
   - activeObject:
       i1: 728004599
       i2: 0
@@ -58,24 +70,16 @@ MonoBehaviour:
     - i1: 728004599
       i2: 0
   - activeObject:
-      i1: 1633232385
+      i1: 1906792235
       i2: 0
     list:
-    - i1: 1633232385
+    - i1: 1906792235
       i2: 0
   - activeObject:
-      i1: -1
-      i2: -1
-    list:
-    - i1: -1
-      i2: -1
-  - activeObject:
-      i1: 837480543
+      i1: 1045468363
       i2: 0
     list:
-    - i1: 837480543
-      i2: 0
-    - i1: 834190059
+    - i1: 1045468363
       i2: 0
   - activeObject:
       i1: -1
@@ -108,6 +112,14 @@ MonoBehaviour:
     - i1: -1
       i2: -1
   - activeObject:
+      i1: 1375612546
+      i2: 0
+    list:
+    - i1: 1375612546
+      i2: 0
+    - i1: 1007161720
+      i2: 0
+  - activeObject:
       i1: -1
       i2: -1
     list:
@@ -117,6 +129,36 @@ MonoBehaviour:
       i1: -1
       i2: -1
     list:
+    - i1: -1
+      i2: -1
+  - activeObject:
+      i1: -1
+      i2: -1
+    list:
+    - i1: -1
+      i2: -1
+  - activeObject:
+      i1: -1
+      i2: -1
+    list:
+    - i1: -1
+      i2: -1
+  - activeObject:
+      i1: -1
+      i2: -1
+    list:
+    - i1: -1
+      i2: -1
+    - i1: -1
+      i2: -1
+  - activeObject:
+      i1: -1
+      i2: -1
+    list:
+    - i1: -1
+      i2: -1
+    - i1: -1
+      i2: -1
     - i1: -1
       i2: -1
   - activeObject:
@@ -264,7 +306,6 @@ MonoBehaviour:
     FavString: []
     list:
     - {fileID: 0}
-    - {fileID: 0}
     ActiveGameObject: {fileID: 0}
     GUIDsList: []
     GUIDsActiveGameObject: 
@@ -348,6 +389,82 @@ MonoBehaviour:
   - FavParams: 0
     FavString: []
     list:
+    - {fileID: 0}
+    - {fileID: 0}
+    ActiveGameObject: {fileID: 0}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    PATHsList: []
+    PATHsActiveGameObject: 
+    InstanceID: 0
+    wasInit: 0
+    CashedBool: 0
+  - FavParams: 0
+    FavString: []
+    list:
+    - {fileID: 0}
+    ActiveGameObject: {fileID: 0}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    PATHsList: []
+    PATHsActiveGameObject: 
+    InstanceID: 0
+    wasInit: 0
+    CashedBool: 0
+  - FavParams: 0
+    FavString: []
+    list:
+    - {fileID: 0}
+    ActiveGameObject: {fileID: 0}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    PATHsList: []
+    PATHsActiveGameObject: 
+    InstanceID: 0
+    wasInit: 0
+    CashedBool: 0
+  - FavParams: 0
+    FavString: []
+    list:
+    - {fileID: 0}
+    ActiveGameObject: {fileID: 0}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    PATHsList: []
+    PATHsActiveGameObject: 
+    InstanceID: 0
+    wasInit: 0
+    CashedBool: 0
+  - FavParams: 0
+    FavString: []
+    list:
+    - {fileID: 0}
+    ActiveGameObject: {fileID: 0}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    PATHsList: []
+    PATHsActiveGameObject: 
+    InstanceID: 0
+    wasInit: 0
+    CashedBool: 0
+  - FavParams: 0
+    FavString: []
+    list:
+    - {fileID: 0}
+    - {fileID: 0}
+    ActiveGameObject: {fileID: 0}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    PATHsList: []
+    PATHsActiveGameObject: 
+    InstanceID: 0
+    wasInit: 0
+    CashedBool: 0
+  - FavParams: 0
+    FavString: []
+    list:
+    - {fileID: 0}
+    - {fileID: 0}
     - {fileID: 0}
     ActiveGameObject: {fileID: 0}
     GUIDsList: []
@@ -414,7 +531,7 @@ MonoBehaviour:
   Hash9: []
   Hash10: []
   _enableRegistrator: 0
-  _saveInFolder: FOLDER
+  _saveInFolder: SCENE
   _mFavoritCategorySelected: 0
   m_GetHash_IconImageKey: []
   m_GetHash_IconImageValue: []

@@ -2,7 +2,6 @@
 using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
-using HierarchyExtensions;
 
 namespace EModules {
 [ExecuteInEditMode]
@@ -12,7 +11,7 @@ class DescriptionRegistrator : MonoBehaviour, IDescriptionRegistrator {
     
     void OnEnable()
     {   if ((hideFlags & HideFlags.DontSaveInBuild) == 0) hideFlags |= HideFlags.DontSaveInBuild;
-        Utilities.RegistrateDescription(this);
+        HierarchyExtensions.Utilities.RegistrateDescription(this);
     }
     
     public string cachedData

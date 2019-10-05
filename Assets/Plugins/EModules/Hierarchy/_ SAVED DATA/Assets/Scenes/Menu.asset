@@ -34,64 +34,10 @@ MonoBehaviour:
       list: []
   LOCALIDINFILE_Hash3:
   - activeObject:
-      i1: 1386746674
+      i1: 0
       i2: 0
     list:
-    - i1: 1386746674
-      i2: 0
-  - activeObject:
-      i1: 2033314818
-      i2: 0
-    list:
-    - i1: 2033314818
-      i2: 0
-  - activeObject:
-      i1: 41912770
-      i2: 0
-    list:
-    - i1: 41912770
-      i2: 0
-  - activeObject:
-      i1: 398331355
-      i2: 0
-    list:
-    - i1: 398331355
-      i2: 0
-  - activeObject:
-      i1: 575331501
-      i2: 0
-    list:
-    - i1: 575331501
-      i2: 0
-  - activeObject:
-      i1: 108888054
-      i2: 0
-    list:
-    - i1: 108888054
-      i2: 0
-  - activeObject:
-      i1: 1890810699
-      i2: 0
-    list:
-    - i1: 1890810699
-      i2: 0
-  - activeObject:
-      i1: 1622216937
-      i2: 0
-    list:
-    - i1: 1622216937
-      i2: 0
-    - i1: 1936006024
-      i2: 0
-    - i1: 1217237523
-      i2: 0
-    - i1: 874525777
-      i2: 0
-  - activeObject:
-      i1: 1837426976
-      i2: 0
-    list:
-    - i1: 1837426976
+    - i1: 0
       i2: 0
   - activeObject:
       i1: 1694751080
@@ -100,16 +46,10 @@ MonoBehaviour:
     - i1: 1694751080
       i2: 0
   - activeObject:
-      i1: 947139856
+      i1: 41912770
       i2: 0
     list:
-    - i1: 947139856
-      i2: 0
-  - activeObject:
-      i1: 1983341683
-      i2: 0
-    list:
-    - i1: 1983341683
+    - i1: 41912770
       i2: 0
   - activeObject:
       i1: -1
@@ -124,10 +64,10 @@ MonoBehaviour:
     - i1: -1
       i2: -1
   - activeObject:
-      i1: 264070127
+      i1: 1759569018
       i2: 0
     list:
-    - i1: 264070127
+    - i1: 1759569018
       i2: 0
   - activeObject:
       i1: -1
@@ -136,29 +76,25 @@ MonoBehaviour:
     - i1: -1
       i2: -1
   - activeObject:
-      i1: 342332365
+      i1: 1464406988
       i2: 0
     list:
-    - i1: 342332365
+    - i1: 1464406988
       i2: 0
   - activeObject:
-      i1: 2043916001
+      i1: 691167883
       i2: 0
     list:
-    - i1: 2043916001
+    - i1: 691167883
+      i2: 0
+    - i1: 798681986
       i2: 0
   - activeObject:
-      i1: -1
-      i2: -1
+      i1: 1890810699
+      i2: 0
     list:
-    - i1: -1
-      i2: -1
-    - i1: -1
-      i2: -1
-    - i1: -1
-      i2: -1
-    - i1: -1
-      i2: -1
+    - i1: 1890810699
+      i2: 0
   - activeObject:
       i1: -1
       i2: -1
@@ -178,10 +114,70 @@ MonoBehaviour:
     - i1: -1
       i2: -1
   - activeObject:
-      i1: 228880968
+      i1: 1257600095
       i2: 0
     list:
-    - i1: 228880968
+    - i1: 1257600095
+      i2: 0
+  - activeObject:
+      i1: 1940940628
+      i2: 0
+    list:
+    - i1: 1940940628
+      i2: 0
+  - activeObject:
+      i1: 992255491
+      i2: 0
+    list:
+    - i1: 992255491
+      i2: 0
+  - activeObject:
+      i1: -1
+      i2: -1
+    list:
+    - i1: -1
+      i2: -1
+  - activeObject:
+      i1: -1
+      i2: -1
+    list:
+    - i1: -1
+      i2: -1
+  - activeObject:
+      i1: -1
+      i2: -1
+    list:
+    - i1: -1
+      i2: -1
+  - activeObject:
+      i1: -1
+      i2: -1
+    list:
+    - i1: -1
+      i2: -1
+  - activeObject:
+      i1: -1
+      i2: -1
+    list:
+    - i1: -1
+      i2: -1
+  - activeObject:
+      i1: 874525777
+      i2: 0
+    list:
+    - i1: 874525777
+      i2: 0
+  - activeObject:
+      i1: -1
+      i2: -1
+    list:
+    - i1: -1
+      i2: -1
+  - activeObject:
+      i1: 398331355
+      i2: 0
+    list:
+    - i1: 398331355
       i2: 0
   LOCALIDINFILE_Hash4:
   - activeObject:
@@ -310,7 +306,17 @@ MonoBehaviour:
     FavString: []
     list:
     - {fileID: 0}
-    - {fileID: 0}
+    ActiveGameObject: {fileID: 0}
+    GUIDsList: []
+    GUIDsActiveGameObject: 
+    PATHsList: []
+    PATHsActiveGameObject: 
+    InstanceID: 0
+    wasInit: 0
+    CashedBool: 0
+  - FavParams: 0
+    FavString: []
+    list:
     - {fileID: 0}
     - {fileID: 0}
     ActiveGameObject: {fileID: 0}
@@ -444,9 +450,6 @@ MonoBehaviour:
   - FavParams: 0
     FavString: []
     list:
-    - {fileID: 0}
-    - {fileID: 0}
-    - {fileID: 0}
     - {fileID: 0}
     ActiveGameObject: {fileID: 0}
     GUIDsList: []
@@ -537,7 +540,7 @@ MonoBehaviour:
   Hash9: []
   Hash10: []
   _enableRegistrator: 0
-  _saveInFolder: FOLDER
+  _saveInFolder: SCENE
   _mFavoritCategorySelected: 0
   m_GetHash_IconImageKey: []
   m_GetHash_IconImageValue: []
