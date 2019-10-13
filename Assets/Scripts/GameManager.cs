@@ -22,6 +22,8 @@ public class GameManager : MonoBehaviour
 	public Button m_AnswerButton1;
 	public Button m_AnswerButton2;
 
+	public DeviceCamera deviceCamera;
+
 	public float lifePositionOne;
 	public float lifePositionTwo;
 	public float lifePositionThree;
@@ -35,8 +37,8 @@ public class GameManager : MonoBehaviour
 	public AudioSource Win;
 
 	public Question[] animals;
-	public Question[] Occ;
-	public Question[] Friut;
+	public Question[] Occupations;
+	public Question[] Fruits;
 
 	public Question[] worldList;
 
@@ -72,12 +74,12 @@ public class GameManager : MonoBehaviour
 			}
 			case "occupations":
 			{
-				worldList = Occ;
+				worldList = Occupations;
 				break;
 			}
 			case "fruits":
 			{
-				worldList = Friut;
+				worldList = Fruits;
 				break;
 			}
 		}
@@ -146,7 +148,7 @@ public class GameManager : MonoBehaviour
 		if (choice == currentQuestion.correctAnswer)
 		{
 			score += 100;
-			// TODO: play correct sound
+			CorrectAudio.Play();
 		}
 		else
 		{
@@ -164,14 +166,15 @@ public class GameManager : MonoBehaviour
 				Wolf.rectTransform.anchoredPosition = new Vector2(lifePositionThree, 0);
 				GameOver();
 			}
-			// TODO: play wrong sound
+			WrongAudio.Play();
 		}
 
 		time = 0;
 
 		if (random.Count == 0)
 		{
-			// TODO: play win sound
+			StopCamera();
+			Win.Play();
 			isGameOver = true;
 			WinCanvas.SetActive(true);
 			return;
@@ -182,7 +185,8 @@ public class GameManager : MonoBehaviour
 
 	private void GameOver()
 	{
-		// TODO: play lose sound
+		StopCamera();
+		Lose.Play();
 		isGameOver = true;
 		LoseCanvas.SetActive(true);
 	}
@@ -190,5 +194,10 @@ public class GameManager : MonoBehaviour
 	public void GoToMenu()
 	{
 		SceneManager.LoadScene(0);
+	}
+
+	public void StopCamera()
+	{
+		deviceCamera.StopCamera();
 	}
 }

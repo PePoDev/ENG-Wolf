@@ -13,4 +13,9 @@ public class DeviceCamera : MonoBehaviour
 		CameraDisplay.material.mainTexture = mCamera;
 		mCamera.Play();
 	}
+
+	public void StopCamera()
+	{
+		mCamera.Stop();
+	}
 }

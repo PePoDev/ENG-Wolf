@@ -1,10 +1,14 @@
 ﻿using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class SM_Menu : MonoBehaviour
 {
 	public Canvas Canvas_LevelSelection;
 	public Canvas Canvas_Settings;
+
+	public AudioMixerGroup bgmMixer;
+	public AudioMixerGroup sfxMixer;
 
 	enum Stage
 	{
@@ -86,6 +90,16 @@ public class SM_Menu : MonoBehaviour
 	public void OnClick_Exit()
 	{
 		Application.Quit();
+	}
+
+	public void ToggleBGM(bool value)
+	{
+		bgmMixer.audioMixer.SetFloat("bgm", value ? 0f : -80f);
+	}
+
+	public void ToggleSFX(bool value)
+	{
+		bgmMixer.audioMixer.SetFloat("sfx", value ? 0f : -80f);
 	}
 	#endregion
 }
